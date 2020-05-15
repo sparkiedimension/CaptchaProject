@@ -1,0 +1,138 @@
+body {
+    background: none repeat scroll 0 0 #85d37b;
+    width: 100%;
+    font-family: "Arial Narrow", Arial;
+  }
+  .mainBox {
+    /* background: none repeat scroll 0 0 #EEEEEE; */
+    height: 3px;
+    width: 376px;
+    margin: 0 auto;
+    padding-left: 3px;
+    padding-top: 3px;
+    
+    /* border: 1px solid #dddddd; */
+    /* -webkit-box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.75); */
+    /* box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.75); */
+    /* background: none repeat scroll 0 0 #EEEEEE; */
+  
+  }
+  
+  .box img {
+    /* background: '/static/captchaPage/images/1.jpg'; */
+    /* background-image: url(https://raw.githubusercontent.com/jcjohnson/neural-style/master/examples/outputs/starry_stanford_bigger.png); */
+    /* background-image: url(http://66.media.tumblr.com/7209a99c6feac1e8257812a60c92cc6d/tumblr_n08hkzeh5n1tq47ppo1_250.gif) !important; */
+      border-radius: 10px;
+      border: 1px solid #72726E;
+      float: left;
+      font-family: arial, "Comic Sans MS", cursive;
+      font-size: 57pt;
+      height: 103px;
+      margin-bottom: 2px;
+      margin-left: 1px;
+      margin-right: 1px;
+      text-align: center;
+      width: 120px;
+      color: #34452C;
+      padding-top: 17px;
+  }
+  
+  .activeBox {
+    background: #34452c;
+    background-image: none;
+      border-radius: 10px;
+      border: 1px solid #72726E;
+      float: left;
+      height: 120px;
+      width: 120px;
+      margin: 1px;
+  }
+  
+  .clickable {
+    background: #ccc;
+    border-radius: 10px;
+    border: 1px solid #72726E;
+    cursor: pointer;
+  }
+  
+  .clickable:hover {
+    background: #34452c;
+    color: #FFF;
+  }
+  
+  .note {
+    background-color: #C3D4BB;
+    font-family: Arial, Helvetica;
+    font-size: 10pt;
+    padding: 5px 5px 10px;
+    text-align: center;
+    width: 39%;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+  }
+  
+  #timeLeft{
+      color: #fff;
+      display: table;
+      font-weight: 100;
+      text-align: center;
+      font-size: 30px;
+    margin: 25px auto;
+    
+  }
+  
+  #timeLeft > div{
+      padding: 10px;
+      border-radius: 3px;
+      background: #caf7c4;
+    color: #000;
+      display: table-cell;
+    border: 1px solid #bbb;
+  }
+  
+  #timeLeft div > span{
+      padding: 15px;
+      color: #fff;
+      border-radius: 3px;
+      background: #34452c;
+      display: inline-block;
+  }
+  
+  .smalltext{
+      padding-top: 5px;
+      font-size: 16px;
+  }
+  h3,h5{
+    margin: 10px;
+    color: #34452c;
+    text-align: center;
+  }
+  #demoPic {
+    margin: 0 auto;
+    padding-left: 300 px;
+    /* background-image: url(https://media.freestocktextures.com/cache/bc/49/bc492cfc43dda0f7ea01e662c199d613.jpg); */
+    /* background-image:url('/media/images/1.jpg'); */
+    border-radius: 10px;
+    border: 1px solid #72726E;
+    background-size: 155px !important;
+      background-repeat: no-repeat !important;
+    height: 100px;
+    width: 155px; 
+    padding: 0 !important;
+  }
+
+  img{
+    margin: 0 auto;
+    padding-left: 300 px;
+    /* background-image: url(https://media.freestocktextures.com/cache/bc/49/bc492cfc43dda0f7ea01e662c199d613.jpg); */
+    /* background-image:url('/media/images/1.jpg'); */
+    border-radius: 10px;
+    border: 1px solid #72726E;
+    background-size: 155px !important;
+      background-repeat: no-repeat !important;
+    height: 100px;
+    width: 155px; 
+    padding: 0 !important;
+  }

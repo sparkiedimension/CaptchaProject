@@ -1,0 +1,15 @@
+.grd{
+    height: 300px;
+    width: 300px;
+    border:3px;
+}
+img{
+    border:4px;
+}
+h1{
+    color: green;
+}
+div{
+    border-block: 10px dashed blue;
+
+}

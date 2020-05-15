@@ -1,0 +1,83 @@
+{% load static %}
+{% load randomNum %}
+<title>NST-Captcha</title>
+ <link rel="stylesheet" type="text/css" href={% static 'captchaPage/css/styleSel.css' %}>
+ <h1>Type 1. Style Selection</h1>
+
+<h3 style="margin-top:30px" >Select an Image Styled with this image  </h3>
+
+
+
+
+<div id="demoPic">
+  
+        {% with name="/media/images/Style/style-0"%}
+        <img id="styleImg" src="{{name}}{%randNum%}.jpg">
+        {% endwith %}
+  
+</div>
+<br>
+
+
+
+<div class="mainBox">
+   
+      	<!-- <div class="box" id="id_0">
+         
+        </div> -->
+
+        <div class="box">
+            {% with name="/media/images/Output/output-0" %}
+            <img onclick="clickedImage(this.src)" src="{{name}}{%randNum%}-0{%randNum%}.jpg">
+            {% endwith %}
+        </div>
+       <div class="box">
+        {% with name="/media/images/Output/output-0" %}
+        <img onclick="clickedImage(this.src)" src="{{name}}{%randNum%}-0{%randNum%}.jpg">
+        {% endwith %}
+        </div>
+        <div class="box">
+            {% with name="/media/images/Output/output-0" %}
+            <img onclick="clickedImage(this.src)" src="{{name}}{%randNum%}-0{%randNum%}.jpg">
+            {% endwith %}
+        </div>
+        <div class="box">
+            {% with name="/media/images/Output/output-0" %}
+            <img onclick="clickedImage(this.src)" src="{{name}}{%randNum%}-0{%randNum%}.jpg">
+            {% endwith %}
+        </div>
+        <div class="box">
+            {% with name="/media/images/Output/output-0" %}
+            <img onclick="clickedImage(this.src)" src="{{name}}{%randNum%}-0{%randNum%}.jpg">
+            {% endwith %}
+        </div>
+        <div class="box">
+            {% with name="/media/images/Output/output-0" %}
+            <img onclick="clickedImage(this.src)" src="{{name}}{%randNum%}-0{%randNum%}.jpg">
+            {% endwith %}
+        </div>
+        <div class="box">
+            {% with name="/media/images/Output/output-0" %}
+            <img onclick="clickedImage(this.src)" src="{{name}}{%randNum%}-0{%randNum%}.jpg">
+            {% endwith %}
+        </div>
+        <div class="box">
+            {% with name="/media/images/Output/output-0" %}
+            <img onclick="clickedImage(this.src)" src="{{name}}{%randNum%}-0{%randNum%}.jpg">
+            {% endwith %}
+        </div>
+        <div class="box">
+            {% with name="/media/images/Output/output-0" %}
+            <img onclick="clickedImage(this.src)" src="{{name}}{%randNum%}-0{%randNum%}.jpg">
+            {% endwith %}
+        </div>
+        
+    </div>
+    <div style="text-align: center;">
+        <p style="clear: both;">Refresh the page....If you are not able to pick any...</p>
+
+    </div>
+ 
+
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script src="{% static 'captchaPage/js/styleSel.js' %}"></script>
