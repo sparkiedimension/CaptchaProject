@@ -122,7 +122,21 @@ body {
     width: 155px; 
     padding: 0 !important;
   }
-
+  #demoPic1 {
+    margin: 0 auto;
+    
+    padding-left: 300 px;
+    /* background-image: url(https://media.freestocktextures.com/cache/bc/49/bc492cfc43dda0f7ea01e662c199d613.jpg); */
+    /* background-image:url('/media/images/1.jpg'); */
+    border-radius: 10px;
+    border: 1px solid #72726E;
+    background-size: 155px !important;
+      background-repeat: no-repeat !important;
+    height: 100px;
+    width: 155px; 
+    padding: 0 !important;
+  }
+  
   img{
     margin: 0 auto;
     padding-left: 300 px;
@@ -136,8 +150,8 @@ body {
     width: 155px; 
     padding: 0 !important;
   }
-
+  
   .cl{
     max-width:13.5%;
   }
- 
+  

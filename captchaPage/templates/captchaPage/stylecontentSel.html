@@ -1,16 +1,23 @@
 {% load static %}
 {% load randomNum %}
 <title>NST-Captcha</title>
- <link rel="stylesheet" type="text/css" href={% static 'captchaPage/css/styleSel.css' %}>
- <h1>Type 1. Style Selection</h1>
+ <link rel="stylesheet" type="text/css" href={% static 'captchaPage/css/stylecontentSel.css' %}>
+ <h1>Type 4. Output Selection</h1>
 
-<h3 style="margin-top:30px" >Select an Image Styled with this image  </h3>
+<h3 style="margin-top:30px" >Select an Image which is an output of following style and content Images </h3>
 <div id="demoPic">
   
         {% with name="/media/images/Style/style-0"%}
         <img id="styleImg" src="{{name}}{%randNum%}.jpg">
         {% endwith %}
   
+</div>
+<div id="demoPic1">
+  
+    {% with name="/media/images/Content/content-0"%}
+    <img id="contentImg" src="{{name}}{%randNum%}.jpg">
+    {% endwith %}
+
 </div>
 <br>
 
@@ -76,4 +83,4 @@
  
 
 <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-<script src="{% static 'captchaPage/js/styleSel.js' %}"></script>
+<script src="{% static 'captchaPage/js/stylecontentSel.js' %}"></script>

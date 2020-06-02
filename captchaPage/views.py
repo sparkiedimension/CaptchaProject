@@ -10,6 +10,12 @@ def puzzle(req):
 
 def styleSel(req):
     return render(req,'captchaPage/styleSel.html')
+def styleSel4(req):
+    return render(req,'captchaPage/styleSel4.html')
 
 def contentSel(req):
     return render(req,'captchaPage/contentSel.html')
+def contentSel4(req):
+    return render(req,'captchaPage/contentSel4.html')
+def stylecontentSel(req):
+    return render(req,'captchaPage/stylecontentSel.html')

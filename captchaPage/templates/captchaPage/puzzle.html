@@ -44,7 +44,11 @@
                     </div>
                 </div>
             </div>
+
+
         </div>
+
+
         <div  id="gameOver" style="display:none;">
             <div style="background-color: #fc9e9e; text-align: center; ">
                 <h2 style="text-align:center">You complete the Image Congo..</h2>
@@ -66,6 +70,9 @@
                 // { src: '/media/images/images/statue-of-liberty.jpg', title: 'Statue Of Liberty' },
                 // { src: '/media/images/img5.jpeg', title: 'Taj Mahal' }
             ];
+            var imagesActual=[
+                 // { src: '/media/images/img5.jpeg', title: 'Taj Mahal' }
+            ];
 
             for(var i=0;i<9;i++){
                 for(var j=0;j<10;j++){
@@ -73,6 +80,11 @@
                     var nm2='output';
                     images.push({src:nm,title:nm2})
                 }
+            }
+            for(var i=0;i<10;i++){
+                var nm='/media/images/Content/content-0'+i+'.jpg';
+                var nm2='content';
+                imagesActual.push({src:nm,title:nm2})
             }
 
 
@@ -90,7 +102,7 @@
             };
             function restart() {
                 var gridSize = document.querySelector('#levelPanel input[type="radio"]:checked').getAttribute('value');
-                imagePuzzle.startGame(images, gridSize);
+                imagePuzzle.startGame(images,gridSize);
             }
             function rules() {
                 alert('Re arrange the image parts in a way that it correctly forms the picture. \nThe no. of steps taken will be counted.');

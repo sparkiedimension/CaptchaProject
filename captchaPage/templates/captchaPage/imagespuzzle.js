@@ -1,4 +1,4 @@
-﻿var timerFunction;
+var timerFunction;
 
 var imagePuzzle = {
     stepCount: 0,
@@ -29,8 +29,7 @@ var imagePuzzle = {
         var percentage = 100 / (gridSize - 1);
         var indx=Math.floor(Math.random() * images.length);
         var image = images[indx];
-        console.log(indx);
-        helper.doc('imgTitle').innerHTML = "image.title";
+        helper.doc('imgTitle').innerHTML = image.title;
         helper.doc('actualImage').setAttribute('src', imagesActual[indx].src);
         helper.doc('sortable').innerHTML = '';
         for (var i = 0; i < gridSize * gridSize; i++) {
